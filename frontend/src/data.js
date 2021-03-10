@@ -11,7 +11,7 @@ const data={
         },
         {
             _id: '2',
-            name: 'Cakebdbuxbfxbfjzbjbjcz',
+            name: 'Cake',
             image: '/images/cake.jpg',
             price: '400',
             rating: '4.5',
