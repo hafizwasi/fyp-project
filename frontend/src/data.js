@@ -5,6 +5,7 @@ const data={
             name: 'Bread',
             image: '/images/bread.jpeg',
             price: '120',
+            countInStock: 10,
             rating: '5.0',
             numReviews: '10',
 
@@ -14,6 +15,7 @@ const data={
             name: 'Cake',
             image: '/images/cake.jpg',
             price: '400',
+            countInStock: 20,
             rating: '4.5',
             numReviews: '20',
 
@@ -23,6 +25,7 @@ const data={
             name: 'Jam',
             image: '/images/jam.jpg',
             price: '250',
+            countInStock: 5,
             rating: '4.8',
             numReviews: '7',
 
@@ -32,6 +35,7 @@ const data={
             name: 'Buscuits',
             image: '/images/buscuit.jpg',
             price: '200',
+            countInStock: 100,
             rating: '4.5',
             numReviews: '15',
 
@@ -41,6 +45,7 @@ const data={
             name: 'Chocklates',
             image: '/images/chocklate.jpg',
             price: '120',
+            countInStock: 40,
             rating: '4.5',
             numReviews: '10',
 
@@ -50,6 +55,7 @@ const data={
             name: 'Butter',
             image: '/images/butter.jpg',
             price: '50',
+            countInStock: 0,
             rating: '4.0',
             numReviews: '10',
 
@@ -59,6 +65,7 @@ const data={
             name: 'Bun',
             image: '/images/bun.jpg',
             price: '40',
+            countInStock: 20,
             rating: '4.5',
             numReviews: '10',
 
@@ -68,6 +75,7 @@ const data={
             name: 'Pizza',
             image: '/images/pizza.jpg',
             price: '400',
+            countInStock: 0,
             rating: '4.3',
             numReviews: '25',
 
@@ -76,7 +84,8 @@ const data={
             _id: '9',
             name: 'Egg',
             image: '/images/egg.jpg',
-            price: '150 per doze',
+            price: '150',
+            countInStock: 30,
             rating: '5',
             numReviews: '25',
 
