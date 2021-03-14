@@ -83,7 +83,7 @@ img{
   border-radius: 0.5rem;
 }
 img.medium{
-  max-width: 16rem;
+  max-width: 19rem;
   width: 100%;
 }
 /* border of card*/
@@ -91,10 +91,10 @@ img.medium{
   border: 0.1rem #a85c14 solid;
   background-color: #e0dbd5;
   border-radius: 0.5rem;
-  margin: 1rem;
+  margin: 0.8rem;
 }
 .card-body{
-  padding: 1rem;
+  padding: 0.8rem;
 }
 .card-body > * /*for all elements in card body or all direct child of card body*/{
 margin-bottom: 0.5rem;
@@ -107,4 +107,7 @@ margin-bottom: 0.5rem;
   color: #f0c040;
   margin: 0.1rem;
 
+}
+.rating span:last-child{
+  color: black;
 }

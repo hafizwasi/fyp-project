@@ -5,7 +5,7 @@ const data={
             name: 'Bread',
             image: '/images/bread.jpeg',
             price: '120',
-            rating: '4.5',
+            rating: '5.0',
             numReviews: '10',
 
         },
@@ -23,7 +23,7 @@ const data={
             name: 'Jam',
             image: '/images/jam.jpg',
             price: '250',
-            rating: '4.7',
+            rating: '4.8',
             numReviews: '7',
 
         },
@@ -69,6 +69,15 @@ const data={
             image: '/images/pizza.jpg',
             price: '400',
             rating: '4.3',
+            numReviews: '25',
+
+        },
+        {
+            _id: '9',
+            name: 'Egg',
+            image: '/images/egg.jpg',
+            price: '150 per doze',
+            rating: '5',
             numReviews: '25',
 
         },
