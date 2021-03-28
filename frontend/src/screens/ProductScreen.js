@@ -64,6 +64,7 @@ export default function ProductScreen(Props) {
             </div>
 
         </div>
+        
     </div>
     )
 }
