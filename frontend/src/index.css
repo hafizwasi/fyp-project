@@ -151,21 +151,21 @@ margin-bottom: 0.5rem;
   font-size: 2rem;
 }
 /*rating section*/
-.card span{
-  color: #f0c040;
+.rating span{
+  color: #FF9529 ;
   margin: 0.1rem;
 
 }
 .rating span:last-child{
   color: black;
 }
-/*alert*/
+
 
 /* Alert */
 .success {
   color: #20a020;
 }
-.danger {
+.error {
   color: #a02020;
 }
 .alert {

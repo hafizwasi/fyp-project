@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Product from '../components/Products';
+
 import Rating from '../components/Rating';
 import data from '../data';
 
@@ -22,11 +22,12 @@ export default function ProductScreen(Props) {
                 <ul>
                     <li><h1>{product.name}</h1></li>
                     <li>
-                        <Rating
-                            rating={product.rating}
-                            numReviews={product.numReviews}>
+                        <Rating className="stars"
 
-                        </Rating>
+                            rating={product.rating}
+                            numReviews={product.numReviews}
+                            
+                        ></Rating>
                     </li>
                     <li>
                         price :{product.price}Rs
