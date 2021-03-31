@@ -10,7 +10,7 @@ import Rating from '../components/Rating';
 export default function ProductScreen(props) {
     const dispatch = useDispatch();
     const productId = props.match.params.id;
-    const [qty, setQty ] = useState(1);
+    const [qty, setQty] = useState(1);
     const productDetails = useSelector((state) => state.productDetails);
     const { loading, error, product } = productDetails;
 
@@ -21,7 +21,7 @@ export default function ProductScreen(props) {
 
     const addToCartHandler = () => {
         props.history.push(`/cart/${productId}?qty=${qty}`);
-      };
+    };
     return (
         <div>
             {loading ? (

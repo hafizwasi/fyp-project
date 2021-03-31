@@ -142,11 +142,23 @@ a.brand{
 .col-3{
   flex: 1 1 13rem;
 }
-
+.min-30 {
+  min-width: 10rem;
+}
+.col-name{
+  flex: 1 1 2rem;
+}
+.col-5{
+  flex: 0.5 5 5rem;
+}
 /* for all images*/
 /*image size 680 x 830 */
 img{
   border-radius: 0.5rem;
+}
+img.small {
+  max-width: 5rem;
+  width: 100%;
 }
 img.medium{
   max-width: 19rem;

@@ -19,8 +19,6 @@ function App() {
             </a>
           </div>
           <div>
-            <Link to="/aboutus">About us</Link>
-            <Link to="/contactus">Contact us</Link>
             <Link to="/cart"> Cart
             {cartItems.length > 0 && (
                 <span className="badge">{cartItems.length}</span>
