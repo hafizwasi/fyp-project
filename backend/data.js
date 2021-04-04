@@ -14,9 +14,8 @@ const data={
           isAdmin: false,
         },
       ],
-  products:[
+  products: [
       {
-          _id: '1',
           name: 'Bread',
           image: '/images/bread.jpeg',
           price: '120',
@@ -25,8 +24,7 @@ const data={
           numReviews: '10',
 
       },
-      {
-          _id: '2',
+     {
           name: 'Cake',
           image: '/images/cake.jpg',
           price: '400',
@@ -36,7 +34,6 @@ const data={
 
       },
       {
-          _id: '3',
           name: 'Jam',
           image: '/images/jam.jpg',
           price: '250',
@@ -46,7 +43,6 @@ const data={
 
       },
       {
-          _id: '4',
           name: 'Buscuits',
           image: '/images/buscuit.jpg',
           price: '200',
@@ -56,7 +52,6 @@ const data={
 
       },
       {
-          _id: '5',
           name: 'Chocklates',
           image: '/images/chocklate.jpg',
           price: '120',
@@ -66,7 +61,6 @@ const data={
 
       },
       {
-          _id: '6',
           name: 'Butter',
           image: '/images/butter.jpg',
           price: '50',
@@ -76,7 +70,6 @@ const data={
 
       },
       {
-          _id: '7',
           name: 'Bun',
           image: '/images/bun.jpg',
           price: '40',
@@ -86,7 +79,6 @@ const data={
 
       },
       {
-          _id: '8',
           name: 'Pizza',
           image: '/images/pizza.jpg',
           price: '400',
@@ -96,7 +88,6 @@ const data={
 
       },
       {
-          _id: '9',
           name: 'Egg',
           image: '/images/egg.jpg',
           price: '150',
@@ -104,6 +95,6 @@ const data={
           rating: '5',
           numReviews: '25',
 
-      },
-  ]}
+      }, 
+  ]} 
   export default data; 
