@@ -15,7 +15,7 @@ function App() {
           <div>
             <a className="brand" href="/">
               {" "}
-              online <span className="spantitle">Bakery </span>{" "}
+              Online <span className="spantitle">Bakery </span>{" "}
             </a>
           </div>
           <div>
