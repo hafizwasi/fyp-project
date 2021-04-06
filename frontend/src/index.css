@@ -195,6 +195,9 @@ margin-bottom: 0.5rem;
 
 
 /* Alert */
+.loading {
+  display: block !important;
+}
 .success {
   color: #20a020;
 }
