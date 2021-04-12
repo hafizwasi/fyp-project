@@ -24,7 +24,7 @@ import {
   };
 
   export const orderDetailsReducer = (
-    state = { loading: true },
+    state = { loading: true, order: {} },
     action
   ) => {
     switch (action.type) {

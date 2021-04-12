@@ -52,8 +52,8 @@ export default function PaymentMethodScreen(props) {
         </div>
         <div>
           <label />
-          <button className="primary" type="submit">
-            Continue
+          <button className="primary" type="submit" onChange={(e) =>(e.target.value)}>
+            Continue 
           </button>
         </div>
       </form>

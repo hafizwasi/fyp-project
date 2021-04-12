@@ -90,7 +90,7 @@ export default function ShippingAddressScreen(props) {
         </div>
         <div>
           <label />
-          <button className="primary" type="submit">
+          <button className="primary" type="submit" onChange={(e) =>(e.target.value)}>
             Continue
           </button>
         </div>
