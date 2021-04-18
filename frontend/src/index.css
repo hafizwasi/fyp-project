@@ -280,12 +280,12 @@ margin-bottom: 0.5rem;
   border-collapse: collapse;
 }
 .table tbody tr:nth-of-type(odd) {
-  background-color: #FF9529;
+  background-color: #cfc8c0;
 }
 .table td,
 .table th {
   text-align: left;
-  border: 0.1rem solid #e4e4e4;
+  border: 0.1rem solid black;
   padding: 0.5rem;
 }
 .table button {
