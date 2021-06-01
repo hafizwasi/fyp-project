@@ -14,6 +14,8 @@ export default function OrderListScreen(props) {
     error: errorDelete,
     success: successDelete,
   } = orderDelete;
+
+  
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch({ type: ORDER_DELETE_RESET });
