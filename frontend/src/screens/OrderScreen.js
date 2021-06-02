@@ -12,7 +12,7 @@ export default function OrderScreen(props) {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(detailsOrder(orderId));
-  }, [dispatch, orderId]);
+  }, [dispatch, orderId, order]);
   return loading ? (
     <LoadingBox></LoadingBox>
   ) : error ? (
