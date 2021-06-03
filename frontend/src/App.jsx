@@ -17,7 +17,7 @@ import RegisterScreen from "./screens/RegisterScreen";
 import ShippingAddressScreen from "./screens/ShippingAddressScreen";
 import SigninScreen from "./screens/SigninScreen";
 import ProductEditScreen from './screens/ProductEditScreen';
-import OrderListScreen from './screens/OrderListScreen';
+ import OrderListScreen from './screens/OrderListScreen';
 import DashboardScreen from './screens/DashboardScreen';
 import UserListScreen from './screens/UserListScreen';
 
@@ -115,9 +115,9 @@ function App() {
             component={ProductListScreen}
           ></AdminRoute>
            <AdminRoute
-            path="/orderlist"
+           path="/orderlist"
             component={OrderListScreen}
-          ></AdminRoute>
+         ></AdminRoute> 
            <AdminRoute path="/userlist" component={UserListScreen}></AdminRoute>
            <AdminRoute
             path="/dashboard"

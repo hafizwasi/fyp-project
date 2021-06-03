@@ -6,7 +6,6 @@ import Product from '../models/productModel.js';
 import { isAdmin,isAuth } from '../utils.js';
 
 const orderRouter = express.Router();
-
 orderRouter.get(
   '/',
   isAuth,
@@ -107,19 +106,6 @@ orderRouter.get(
     }
   })
 );
-orderRouter.delete(
-  '/:id',
-  isAuth,
-  isAdmin,
-  expressAsyncHandler(async (req, res) => {
-    const order = await Order.findById(req.params.id);
-    if (order) {
-      const deleteOrder = await order.remove();
-      res.send({ message: 'Order Deleted', order: deleteOrder });
-    } else {
-      res.status(404).send({ message: 'Order Not Found' });
-    }
-  })
-);
+
 
 export default orderRouter;
